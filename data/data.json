@@ -2,7 +2,7 @@
     "Books": [
         {
             "bookTitle": "Test One",
-            "bookImage": "https://picsum.photos/200/500",
+            "bookImage": "https://picsum.photos/200/450",
             "bookDescription": "A test book"
         }
     ]

@@ -1,11 +1,11 @@
 <% if (Books.Books.length > 0) {
     for (let i=0; i<Books.Books.length; i++) { %> 
-        <div id="showBooks">
-            <div class="card">
-                <p id="bookTitle"> <%= Books.Books[i].bookTitle %> <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button></p>
-                <div class="card-body"><img src="<%= Books.Books[i].bookImage %>" alt="Book Image"></div>
-                <p class="card-text" id="cardDescription"><%= Books.Books[i].bookDescription %></p>
-            </div>
+        <div id="showBooks" class="card">     
+            <div class="card-body">
+                <p id="bookTitle" class="card-header"> <%= Books.Books[i].bookTitle %> <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button></p>
+                <div class="card-text"><img src="<%= Books.Books[i].bookImage %>" alt="Book Image" id="imageBook"></div>
+                <p class="card-footer" id="cardDescription"><%= Books.Books[i].bookDescription %></p> 
+            </div>                                  
         </div>        
    <% }
 }

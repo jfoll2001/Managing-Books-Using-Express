@@ -16,5 +16,29 @@ body {
 
 #showBooks {
     margin-top: 2%;
-    width: 30%;
+    width: 25%;
+    background-color: darkgray;
+}
+
+#bookTitle {
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+#imageBook {
+    margin-left: 2%;
+    width: 98%;
+    height: 300px;
+    object-fit: fit;
+}
+
+#btnDelete {
+    position: relative;
+    left: 50%;   
+}
+
+#cardDescription {
+    margin-left: 2%;
+    background-color: rgba(0, 0, 0, 0.20);
 }
