@@ -16,7 +16,7 @@ body {
 
 #showBooks {
     margin-top: 2%;
-    width: 25%;
+    width: 23%;
     background-color: darkgray;
     border-style: none;
 }
@@ -31,12 +31,12 @@ body {
     margin-left: 2%;
     width: 98%;
     height: 300px;
-    object-fit: fit;
+    object-fit: cover;
 }
 
 #btnDelete {
     position: relative;
-    left: 50%;   
+    left: 43%;   
 }
 
 #cardDescription {
