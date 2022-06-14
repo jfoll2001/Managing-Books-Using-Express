@@ -1,5 +1,9 @@
 {
-    "bookTitle": "Test One",
-    "bookImage": "https://picsum.photos/500/200",
-    "bookDescription": "A test book"
+    "Books": [
+        {
+            "bookTitle": "Test One",
+            "bookImage": "https://picsum.photos/200/500",
+            "bookDescription": "A test book"
+        }
+    ]
 }
