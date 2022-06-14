@@ -1,0 +1,17 @@
+<% if (Books.length > 0) {
+    for (i=0; i<Books.length; i++) { %> 
+
+        <div id="showBooks">
+            <div class="card">
+                <p id="bookTitle"> <%= Books[i].bookTitle %> <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button></p>
+                <div class="card-body"><img src="<%= Books[i].bookImage %>" alt="Book Image"></div>
+                <p class="card-text" id="cardDescription"><%= Books[i].bookDescription %></p>
+            </div>
+        </div>        
+   <% }
+}
+else { %> 
+    <div class="form-control" id="addBooksPrompt">
+        <p id="linkOne">No Books Yet. <a href="/addBook">Add A New One</a></p>
+    </div>  
+<%}%>

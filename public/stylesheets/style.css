@@ -1,0 +1,20 @@
+body {
+    background-color: darkgray;
+}
+
+#addBooksPrompt {
+    text-align: center;
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 22%;
+}
+
+#linkOne {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#showBooks {
+    margin-top: 2%;
+    width: 30%;
+}
