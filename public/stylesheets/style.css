@@ -49,3 +49,28 @@ body {
     margin-top: 2%;
     margin-left: 25%;
 }
+
+#title {
+    margin-left: 5%;
+}
+
+#author {
+    margin-left: 2%;
+}
+
+#image {
+    margin-left: 3%;
+}
+
+#cardBody {
+    background-color: rgba(211, 211, 211, 0.350);
+}
+
+#aboutP {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 25%;
+}
