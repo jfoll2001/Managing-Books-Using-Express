@@ -11,7 +11,6 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     let id = req.params.id;
     dataFile.Books.splice(id, 1);
-    console.log(dataFile.Books.length)
     res.redirect('/index');
 });
 
