@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', require('./routes/index'));
+app.use('/index', require('./routes/index'));
 app.use('/about', require('./routes/about'));
 app.use('/addBook', require('./routes/addBook'));
 

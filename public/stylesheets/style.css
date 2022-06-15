@@ -14,17 +14,11 @@ body {
     margin-bottom: 1%;
 }
 
-#showBooks {
-    margin-top: 2%;
-    width: 23%;
-    background-color: darkgray;
-    border-style: none;
-}
-
 #bookTitle {
     margin-top: 2%;
     margin-left: 2%;
     background-color: rgba(0, 0, 0, 0.20);
+    height: 13%;
 }
 
 #imageBook {
@@ -34,9 +28,9 @@ body {
     object-fit: cover;
 }
 
-#btnDelete {
-    position: relative;
-    left: 43%;   
+#btnDelete {  
+    margin: 2%;
+    margin-left: 20%;
 }
 
 #cardDescription {

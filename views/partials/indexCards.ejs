@@ -1,16 +1,17 @@
-<% if (Books.Books.length > 0) {
-    for (let i=0; i<Books.Books.length; i++) { %> 
-        <div id="showBooks" class="card">     
-            <div class="card-body">
-                <p id="bookTitle" class="card-header"> <%= Books.Books[i].bookTitle %> <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button></p>
-                <div class="card-text"><img src="<%= Books.Books[i].bookImage %>" alt="Book Image" id="imageBook"></div>
-                <p class="card-footer" id="cardDescription"><%= Books.Books[i].bookDescription %></p> 
-            </div>                                  
-        </div>        
-   <% }
-}
-else { %> 
-    <div class="form-control" id="addBooksPrompt">
-        <p id="linkOne">No Books Yet. <a href="/addBook">Add A New One</a></p>
-    </div>  
-<%}%>
+<% if (Books.Books.length> 0) {
+    for (let i=0; i<Books.Books.length; i++) { %>
+        <div class="col-2">
+            <p id="bookTitle" class="card-header">
+                <%= Books.Books[i].bookTitle %> <a id="btnDelete"
+                        class="btn btn-danger" href="/index/<%= [i] %>">Delete</a>
+            </p>
+            <div class="card-text"><img src="<%= Books.Books[i].bookImage %>" alt="Book Image" id="imageBook"></div>
+            <p class="card-footer" id="cardDescription">
+                <%= Books.Books[i].bookDescription %>
+            </p>
+        </div>
+        <% } } else { %>
+            <div class="form-control" id="addBooksPrompt">
+                <p id="linkOne">No Books Yet. <a href="/addBook">Add A New One</a></p>
+            </div>
+            <%}%>

@@ -1,10 +1,10 @@
 <div class="container">
     <div class="card" id="cardOne">
         <div class="card-body" id="cardBody">
-            <form onsubmit="submit()">
+            <form method="POST" action="/addBook/save">
                 <div class="mb-3">
                     <label for="title" class="form-label" id="titleLabel">Title:</label>
-                    <input id="title" type="text" placeholder="Title" required>
+                    <input name="bookTitle" id="title" type="text" placeholder="Title" required>
                 </div>
                 <div class="mb-3">
                     <label for="author" class="form-label" id="authorLabel">Author:</label>
@@ -12,12 +12,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="image" class="form-label" id="imageLabel">Image:</label>
-                    <input id="image" type="text" placeholder="http://website.com" required>
+                    <input name="bookImage" id="image" type="text" placeholder="http://website.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Description:</label>
-                    <textarea class="form-control" id="description" rows="3"
-                        placeholder="Description..."></textarea>
+                    <textarea name="bookDescription" class="form-control" id="description" rows="3" placeholder="Description..."></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Post Entry</button>
             </form>

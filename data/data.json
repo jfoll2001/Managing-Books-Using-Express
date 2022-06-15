@@ -4,6 +4,31 @@
             "bookTitle": "Test One",
             "bookImage": "https://picsum.photos/200/450",
             "bookDescription": "A test book"
+        },
+        {
+            "bookTitle": "Test Two",
+            "bookImage": "https://picsum.photos/200/450",
+            "bookDescription": "A test book"
+        },
+        {
+            "bookTitle": "Test Three",
+            "bookImage": "https://picsum.photos/200/450",
+            "bookDescription": "A test book"
+        },
+        {
+            "bookTitle": "Test Four",
+            "bookImage": "https://picsum.photos/200/450",
+            "bookDescription": "A test book"
+        },
+        {
+            "bookTitle": "Test Five",
+            "bookImage": "https://picsum.photos/200/450",
+            "bookDescription": "A test book"
+        },
+        {
+            "bookTitle": "Test Six",
+            "bookImage": "https://picsum.photos/200/450",
+            "bookDescription": "A test book"
         }
     ]
 }
